@@ -10,6 +10,7 @@
     "hammerjs",
     "angular"
   ],
+  "ignore": [],
   "repository": {
     "type": "git",
     "url": "git://github.com/stoneChen/bower-ngx-gestures"
