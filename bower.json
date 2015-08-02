@@ -1,0 +1,22 @@
+{
+  "name": "bower-ngx-gestures",
+  "version": "0.3.0",
+  "authors": [
+    "stoneChen <baby31529@gmail.com>"
+  ],
+  "description": "re-pack angular-gestures whick is not using IIFE outside",
+  "main": "ngx-gestures.js",
+  "keywords": [
+    "hammerjs",
+    "angular"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stoneChen/bower-ngx-gestures"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "angular": ">1.2.0",
+    "hammerjs": "~2.0.0"
+  }
+}
