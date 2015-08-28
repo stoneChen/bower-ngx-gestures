@@ -124,6 +124,7 @@
                         if (VERBOSE) {
                             $log.debug('angular-gestures: ', eventName, event);
                         }
+                        event.preventDefault();//先统一阻止默认事件，目前用到最多的是tap事件，如果其他事件有问题再考虑更改
                         var callbackHandler = function () {
                             var cb = callback(scope, { $event : event});
                             if (typeof cb === 'function') {
